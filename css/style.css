@@ -11,7 +11,35 @@ body{
     overflow-y: hidden;
 }
 
+
 /* ====TOP==== */
+
+/* SELECTIONS */
+body em::selection{
+    background-color: none;
+    color: #ffffff7d;
+}
+
+body p::selection{
+    background-color: none;
+    color: #ffffff7d;
+}
+
+body span::selection{
+    background-color: none;
+    color: #ffffff7d;
+}
+
+body strong::selection{
+    background-color: none;
+    color: #ffffff7d;
+}
+
+.mainHeader .titleHeader h1::selection{
+    background-color: none;
+    color: #9f7866;
+}
+/* SELECTIONS */
 
 
 .mainHeader{
@@ -30,6 +58,7 @@ body{
     font-size: 4vw;
     color: #9f7866;
 }
+
 
 .pages{
     margin-top: 2vh;
@@ -54,6 +83,8 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+
 
 
 /* ====BOTTOM==== */
@@ -88,4 +119,20 @@ body{
     text-transform: uppercase;
     cursor: pointer;
 }
+.mainHeader .bottomHeader strong{
+    position: relative;
+}
 
+.mainHeader .bottomHeader strong::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #9f7866;
+    transition: width .2s;
+}
+
+.mainHeader .bottomHeader:hover strong::after{
+    width: 100%;
+}
