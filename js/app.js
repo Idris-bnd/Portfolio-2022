@@ -5,19 +5,16 @@ for (const letter of myLetter)
     letter.addEventListener('mouseenter', (e) => {
         mySingleLetter = e.currentTarget
 
-        if (mySingleLetter.classList.contains('brown')){
-        mySingleLetter.className = 'oui yo'
-
-        setTimeout(() => {
-            letter.className = 'oui white'
-        },1000)
-
-        }else if (mySingleLetter.classList.contains('yo')){
+        if (mySingleLetter.classList.contains('yo')){
         mySingleLetter.className = 'oui yo'
         
         setTimeout(() => {
             letter.className = 'oui brown'
         },1000)
+
+        setTimeout(() => {
+            letter.className = 'oui white'
+        },5000)
 
         }else{
             mySingleLetter.className = 'oui yo'
@@ -25,6 +22,10 @@ for (const letter of myLetter)
             setTimeout(() => {
                 letter.className = 'oui brown'
             },1000)
+
+            setTimeout(() => {
+                letter.className = 'oui white'
+            },5000)
         }
 
     })
