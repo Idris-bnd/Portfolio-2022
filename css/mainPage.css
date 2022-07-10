@@ -98,14 +98,13 @@
 }
 
 .mainHeader .siteVersion span{
-    font-size: 1.5vw;
+    font-size: 80%;
     font-weight: 400;
 }
 
 .mainHeader .bottomHeader{
     height: fit-content;
     margin-bottom: 1vh;
-    font-size: 1vw;
 
     color: #0000008f;
     display: flex;
@@ -119,3 +118,67 @@
 .bottomHeader:hover strong::after{
     width: 100%;
 }
+
+
+@media screen and (max-width : 425px) {
+    
+    .mainHeader em{
+        font-size: 10vw;
+    }
+
+    .pages{
+        display: none;
+    }
+
+    .mainHeader .titleHeader{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1vh;
+    }
+
+    .titleHeader .bnd{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainHeader .titleHeader .idris li{
+        font-size: 25vw;
+    }
+
+    .mainHeader .titleHeader .bnd{
+        font-size: 20vw;
+    }
+
+    .mainHeader .titleHeader .only{
+        width: 100%;
+    }
+
+    .mainHeader .titleHeader .lastName{
+        margin: 0;
+    }
+
+    .mainHeader .titleHeader .h2s{
+        width: 50%;
+        margin-top: 5vh;
+    }
+
+    .mainHeader .titleHeader h2{
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    .siteVersion p{
+        font-size: 5vw;
+    }
+
+    .siteVersion p span{
+        width: 90%;
+    }
+
+    .mainHeader .bottomHeader{
+        margin-bottom: 5vh;
+    }
+}
+
