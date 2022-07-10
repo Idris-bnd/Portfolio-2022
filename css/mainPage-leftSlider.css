@@ -88,3 +88,45 @@
 .leftSlider .BottomRightleftSlider:hover .nextPage::after{
     width: 100%;
 }
+
+
+@media screen and (max-width : 425px) {
+
+    .mainMiddle{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    .leftSlider .topMain{
+        margin-top: 5vh;
+    }
+
+    .leftSlider h2{
+        font-size: 5vw;
+        letter-spacing: 0.4em;
+    }
+
+    .leftSlider h3{
+        font-size: 4.5vw;
+    }
+
+    .leftSlider .paragraphs{
+        width: calc(100% - 20vw);
+        margin-top: 5vh;
+    }
+
+    .leftSlider .paragraphs p{
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .leftSlider .BottomRightleftSlider{
+        right: initial;
+        margin-bottom: 5vh;
+    }
+
+    .leftSlider .BottomRightleftSlider i{
+        display: none;
+    }
+
+}

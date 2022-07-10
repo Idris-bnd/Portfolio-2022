@@ -93,3 +93,43 @@
 .socialNetworks i:hover{
     color: #c28465;
 }
+
+
+
+@media screen and (max-width : 425px) {
+
+    .BottomLeftRightSlider{
+        left: initial;
+        bottom: initial;
+        top: 0;
+        margin-top: 5vh;
+    }
+
+    .BottomLeftRightSlider i{
+        display: none;
+    }
+
+    .rightSlider h2{
+        margin-top: 15vh;
+        font-size: 5vw;
+        letter-spacing: 0.4em;
+    }
+
+    .rightSlider .allMyProjects a{
+        font-size: 5vw;
+    }
+
+    .rightSlider .allMyProjects p{
+        font-size: 3vw;
+    }
+
+    .socialNetworks{
+        margin-bottom: 5vh;
+    }
+
+    .socialNetworks i{
+        font-size: 5vw;
+        margin-left: 1vw;
+    }
+
+}
