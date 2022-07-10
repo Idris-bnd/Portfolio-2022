@@ -58,7 +58,7 @@
 
 /* ====MIDDLE==== */
 
-.leftSlider p{
+.leftSlider .paragraphs p{
     font-size: 1.25vw;
     margin-top: 4vw;
     width: 35vw;
@@ -70,7 +70,7 @@
 
 /* ====BOTTOM==== */
 
-.leftSlider .BottomRightMain{
+.leftSlider .BottomRightleftSlider{
     position: absolute;
     height: fit-content;
     width: fit-content;
@@ -82,9 +82,9 @@
     bottom: 0;
     right: 0;
     margin-right: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 2vh;
 }
 
-.leftSlider .BottomRightMain:hover .nextPage::after{
+.leftSlider .BottomRightleftSlider:hover .nextPage::after{
     width: 100%;
 }

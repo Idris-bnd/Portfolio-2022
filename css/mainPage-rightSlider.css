@@ -1,4 +1,95 @@
 .rightSlider{
     height: 100vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+
+
+/* ====TOP==== */
+
+.rightSlider h2{
+    font-family: 'Cormorant Garamond';
+    color: #9f7866;
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-top: 5vh;
+}
+
+/* ====MIDDLE==== */
+
+.allMyProjects{
+    margin-top: 5vh;
+}
+.project{
+    margin-bottom: 1vh;
+}
+
+.rightSlider .allMyProjects a{
+    width: fit-content;
+    font-family: 'Cormorant Garamond';
+    color: #9f7866;
+    text-transform: uppercase;
+    font-size: 1.7vw;
+    font-weight: 300;
+
+}
+
+
+.rightSlider .allMyProjects  p{
+    margin-top: -5px;
+    color: #0000008f;
+    font-family: 'Cormorant Garamond';
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+/* ====BOTTOM==== */
+
+.BottomLeftRightSlider{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+
+    
+    color: #0000008f;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.BottomLeftRightSlider .nextPage::after{
+    right: 0;
+}
+
+.BottomLeftRightSlider:hover .nextPage::after{
+    width: 100%;
+}
+
+
+.socialNetworks{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    font-size: 1.5rem;
+}
+
+.socialNetworks i{
+    color: #9f7866;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.socialNetworks i:hover{
+    color: #c28465;
 }

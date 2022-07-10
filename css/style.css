@@ -9,9 +9,8 @@
 body{
     background-color: #e6d1b6;
     position: relative;
+    overflow: hidden;
 }
-
-
 
 
 .nextPage{
@@ -23,6 +22,18 @@ a{
     text-decoration: none;
 }
 
+.pages{
+    font-family: 'Cormorant Garamond';
+    color: #9f7866;
+    font-weight: 400;
+    font-size: 2vw;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2vw;
+    margin-top: 2vh;
+}
 
 /* animation générales */
 
@@ -77,4 +88,16 @@ body h2::selection{
 body h3::selection{
     background-color: none;
     color: #ffffff7d;
+}
+
+body a::selection{
+    background-color: none;
+    color: #ffffff7d;
+}
+
+body li::selection{
+    background-color: none;
+}
+body ul::selection{
+    background-color: none;
 }
