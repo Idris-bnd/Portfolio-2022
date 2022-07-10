@@ -32,47 +32,47 @@ for (const letter of myLetter)
 // ANIMATION
 
 
-// ---
-const ButtonMore = document.getElementById('more');
-const leftSlider = document.getElementById('leftSlider')
+// // ---
+// const ButtonMore = document.getElementById('more');
+// const leftSlider = document.getElementById('leftSlider')
 
-ButtonMore.addEventListener('click', () => {
-    leftSlider.scrollIntoView()
-})
-// ---
+// ButtonMore.addEventListener('click', () => {
+//     leftSlider.scrollIntoView()
+// })
+// // ---
 
-// ----------
+// // ----------
 
-// ---
-const ButtongoBack = document.getElementById('goBack');
-const mainHeader = document.getElementById('mainHeader');
-ButtongoBack.addEventListener('click', () => {
-    mainHeader.scrollIntoView()
-})
-// ---
+// // ---
+// const ButtongoBack = document.getElementById('goBack');
+// const mainHeader = document.getElementById('mainHeader');
+// ButtongoBack.addEventListener('click', () => {
+//     mainHeader.scrollIntoView()
+// })
+// // ---
 
-// ----------
+// // ----------
 
-// ---
-const ButtonBottomRightMain = document.getElementById('BottomRightMainLeftSlider');
-const rightSlider = document.getElementById('rightSlider');
+// // ---
+// const ButtonBottomRightMain = document.getElementById('BottomRightMainLeftSlider');
+// const rightSlider = document.getElementById('rightSlider');
 
-ButtonBottomRightMain.addEventListener('click', () => {
-    rightSlider.scrollIntoView()
-})
-// ---
+// ButtonBottomRightMain.addEventListener('click', () => {
+//     rightSlider.scrollIntoView()
+// })
+// // ---
 
-// ----------
+// // ----------
 
-// ---
-const ButtonBottomLeftRightSlider = document.getElementById('BottomLeftRightSlider');
+// // ---
+// const ButtonBottomLeftRightSlider = document.getElementById('BottomLeftRightSlider');
 
-ButtonBottomLeftRightSlider.addEventListener('click', () => {
-    leftSlider.scrollIntoView()
-})
-// ---
+// ButtonBottomLeftRightSlider.addEventListener('click', () => {
+//     leftSlider.scrollIntoView()
+// })
+// // ---
 
-// ----------
+// // ----------
 
 // ---
 
@@ -102,7 +102,7 @@ const divAllMyProject = document.getElementById('allMyProjects');
     [
         'facebook ^^',
         '2022',
-        '#',
+        '#mainHeader',
     ]
 
  ]
